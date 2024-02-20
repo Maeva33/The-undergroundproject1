@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    
+    margin : 0;
+}
+/* HEADER */
+#titre_haut {
+color: white;
+@font-face {
+    font-family: 'roboto';
+    src: url('assets/fonts/Roboto-Bold.ttf');
+};
+font-size: 50px;
+}
+header {
+    background-image: url(../image/banner-1.jpg);
+    padding: 250px;
+}
+#haut {
+    color: white;
+}
+.action-button1 {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    color: black;
+    font-size: 16px; 
+    font-style: bold;
+    font-family:"asset/font/Roboto_Black.ttf";
+    text-decoration: none;
+}
+/* MILIEU */
+#titre_milieu {
+    color: black;
+    @font-face {
+        font-family: 'roboto';
+        src: url('/assets/fonts/Roboto-Bold.ttf');
+    };
+    font-size: 50PX;  
+    }
+    .action-button2 {
+        padding: 10px 40px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 16px; 
+        font-style: bold;
+        font-family:"asset/font/Roboto_Black.ttf";
+        text-decoration: none;
+    }
+
+    /* BAS */
+    footer {
+        background-image: url(../image/banner-2.jpg);
+        padding: 250px;
+    }
+   h3 {
+background-color: grey;
+color: white;
+
+    }
+    
+
